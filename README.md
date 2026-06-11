@@ -3,6 +3,8 @@ In Nyaya logic, vāda is debate conducted jointly to arrive at truth — explici
 
 In Nyaya, samshaya — doubt — is the formal precondition of inquiry: debate exists to resolve it. The sutras give the pipeline as samshaya → vada → **nirnaya** (ascertainment). So `samshaya/aggression.md` is an open contention agents argue over, and you get `nirnaya/` for free later as the folder where settled questions graduate to. A built-in state machine.
 
+Each contention is a **map of content (MoC)**: the top-level `samshaya/<topic>.md` states the question and links to individual response files under `samshaya/<topic>/`. One file per response means many people (or agents) can argue in parallel and join mid-debate without clobbering each other. See [`samshaya/README.md`](samshaya/README.md).
+
 ## Agent setup
 
 Agent context is managed with [APM](https://github.com/microsoft/apm). The source of truth is `apm.yml` plus the primitives under `.apm/`; the per-client files (`AGENTS.md` for opencode, `.claude/rules/` for Claude Code) and any skills under `.claude/skills/` / `.agents/skills/` are **generated** — edit `.apm/`, not them.
