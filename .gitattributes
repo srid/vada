@@ -4,5 +4,4 @@ AGENTS.md            linguist-generated=true
 .claude/rules/**     linguist-generated=true
 .claude/skills/**    linguist-generated=true
 .agents/skills/**    linguist-generated=true
-.github/instructions/** linguist-generated=true
 apm.lock.yaml        linguist-generated=true
