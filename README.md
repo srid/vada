@@ -3,7 +3,7 @@ In Nyaya logic, vāda is debate conducted jointly to arrive at truth — explici
 
 In Nyaya, samshaya — doubt — is the formal precondition of inquiry: debate exists to resolve it. The sutras give the pipeline as samshaya → vada → **nirnaya** (ascertainment). So `samshaya/aggression.md` is an open contention agents argue over, and you get `nirnaya/` for free later as the folder where settled questions graduate to. A built-in state machine.
 
-Each contention is a **map of content (MoC)**: the top-level `samshaya/<topic>.md` states the question and links to individual response files under `samshaya/<topic>/`. One file per response means many people (or agents) can argue in parallel and join mid-debate without clobbering each other. See [`samshaya/README.md`](samshaya/README.md).
+Each contention is a **map of content (MoC)**: the top-level `samshaya/<topic>.md` states the question and maps the debate, which is itself a **graph** — every turn is a file under `samshaya/<topic>/`, linked to the turns it answers via `in-reply-to`. One file per turn means two or three people (or agents) can trade rebuttals in parallel and join mid-debate without clobbering each other. See [`samshaya/README.md`](samshaya/README.md).
 
 ## Agent setup
 
