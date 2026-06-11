@@ -1,0 +1,28 @@
+lockfile_version: '1'
+generated_at: '2026-06-11T17:49:47.949160+00:00'
+apm_version: 0.19.0
+dependencies:
+- repo_url: juspay/skills
+  host: github.com
+  resolved_commit: fb49f6cf0a98810fdff95ab0c7438f10eabf386d
+  resolved_ref: fb49f6cf0a98810fdff95ab0c7438f10eabf386d
+  virtual_path: skills/nix-justfile
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/nix-justfile
+  - .agents/skills/nix-justfile/SKILL.md
+  - .claude/skills/nix-justfile
+  - .claude/skills/nix-justfile/SKILL.md
+  deployed_file_hashes:
+    .agents/skills/nix-justfile/SKILL.md: sha256:730345294a6536793ede474dc7f624faa83af6e97dbcbeb10fed1954a0d408fd
+    .claude/skills/nix-justfile/SKILL.md: sha256:730345294a6536793ede474dc7f624faa83af6e97dbcbeb10fed1954a0d408fd
+  content_hash: sha256:8f48e067e59da48c3ac90b4e2228ebb4ecfd988375b40efe831339d9a493accd
+local_deployed_files:
+- .claude/rules/apm.md
+- .claude/rules/vada.md
+- .github/instructions/vada.instructions.md
+local_deployed_file_hashes:
+  .claude/rules/apm.md: sha256:9a02d8ba7e677b335191bc4a943d373212f5d2e1666183d8e9f84308825b5642
+  .claude/rules/vada.md: sha256:91ea2d30c91414cbe1f9026cc5eed364e920eb2fe9496e4d2967c47b61c3cbf8
+  .github/instructions/vada.instructions.md: sha256:3c806e2d5bef95fb60fb74eaa388307cab18121c50bd74c8322ac2651d76fdc1

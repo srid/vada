@@ -1,0 +1,17 @@
+---
+paths:
+  - "**"
+---
+
+# vada — debate to arrive at truth
+
+This repo runs structured debate in the Nyaya tradition. Follow the pipeline:
+**samshaya → vada → nirnaya** (doubt → debate → ascertainment).
+
+- Argue as **vada**: debate jointly to reach truth. Do not engage in *jalpa*
+  (arguing to win) or *vitanda* (arguing only to demolish).
+- Each file in `samshaya/` is an open contention. Add your response below the
+  existing text; do not overwrite others' arguments.
+- When a question is settled, it graduates from `samshaya/` to `nirnaya/`.
+- Steelman before you rebut. State the strongest form of the opposing view
+  first, then respond to that.

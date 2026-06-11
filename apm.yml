@@ -1,0 +1,14 @@
+# apm.yml — ships with your project
+# Agent Package Manager manifest (https://github.com/microsoft/apm)
+name: vada
+version: 0.1.0
+
+# Agent clients these primitives get compiled into.
+targets:
+  - claude
+  - opencode
+
+dependencies:
+  apm:
+    - juspay/skills/skills/nix-justfile#fb49f6cf0a98810fdff95ab0c7438f10eabf386d
+  mcp: []
