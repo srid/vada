@@ -9,5 +9,6 @@ targets:
   - opencode
 
 dependencies:
-  apm: []
+  apm:
+    - juspay/skills/skills/nix-justfile#fb49f6cf0a98810fdff95ab0c7438f10eabf386d
   mcp: []
