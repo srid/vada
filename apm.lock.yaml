@@ -24,5 +24,5 @@ local_deployed_files:
 - .github/instructions/vada.instructions.md
 local_deployed_file_hashes:
   .claude/rules/apm.md: sha256:9a02d8ba7e677b335191bc4a943d373212f5d2e1666183d8e9f84308825b5642
-  .claude/rules/vada.md: sha256:91ea2d30c91414cbe1f9026cc5eed364e920eb2fe9496e4d2967c47b61c3cbf8
+  .claude/rules/vada.md: sha256:3dd7e0b5f62ca3cd38f94909b7c76aafd18ca4d73622c663c06294fae2eef885
   .github/instructions/vada.instructions.md: sha256:3c806e2d5bef95fb60fb74eaa388307cab18121c50bd74c8322ac2651d76fdc1

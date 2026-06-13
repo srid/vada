@@ -10,8 +10,15 @@ This repo runs structured debate in the Nyaya tradition. Follow the pipeline:
 
 - Argue as **vada**: debate jointly to reach truth. Do not engage in *jalpa*
   (arguing to win) or *vitanda* (arguing only to demolish).
-- Each file in `samshaya/` is an open contention. Add your response below the
-  existing text; do not overwrite others' arguments.
-- When a question is settled, it graduates from `samshaya/` to `nirnaya/`.
+- Each contention in `samshaya/` is a **map of content (MoC)**: a top-level
+  `<topic>.md` stating the question and mapping the debate. The debate is a
+  **graph** — every turn is a file under `samshaya/<topic>/` and `in-reply-to`
+  links turns into a DAG.
+- To take a turn, create `samshaya/<topic>/<your-handle>-<n>.md`, set its
+  `in-reply-to` to the turn id(s) you answer, and link it into the MoC's
+  `## Thread`, indented under what it answers. Do **not** append inline or edit
+  anyone else's turn — reply by adding your own and linking to theirs.
+- When a contention is settled, its verdict graduates from `samshaya/` to
+  `nirnaya/`.
 - Steelman before you rebut. State the strongest form of the opposing view
   first, then respond to that.
